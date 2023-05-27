@@ -1,4 +1,5 @@
 package com.example.studentsystem;
 
-public class StudentService {
+public interface StudentService {
+    public Student saveStudent(Student studentToBeSaved);
 }
