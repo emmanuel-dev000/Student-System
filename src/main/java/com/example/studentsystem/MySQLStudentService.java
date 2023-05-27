@@ -11,8 +11,8 @@ public class MySQLStudentService implements StudentService{
     private  StudentRepository studentRepository;
 
     @Override
-    public Student saveStudent(Student studentToBeSaved) {
-        return studentRepository.save(studentToBeSaved);
+    public Student saveStudent(Student student) {
+        return studentRepository.save(student);
     }
 
     @Override
