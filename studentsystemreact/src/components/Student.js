@@ -16,8 +16,12 @@ export default function StudentTextFields() {
         e.preventDefault();
         const student = { name, address };
         console.log(student);
-    };
-
+        fetch("http://localhost:8080/students", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(student)
+        }).then(() => {
+            console.log("Added: " + JSON.stringify(student))})};
 
   return (
     <Container>
