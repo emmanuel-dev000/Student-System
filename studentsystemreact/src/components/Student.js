@@ -6,9 +6,10 @@ import { Container, Paper } from "@mui/material";
 export default function StudentTextFields() {
     const paperStyle = {
         padding: "50px 20px",
-        width: 200,
+        width: 600,
         margin: "20px auto",
     };
+
   return (
     <Container>
         
@@ -21,8 +22,9 @@ export default function StudentTextFields() {
             noValidate
             autoComplete="off"
             >
-            <TextField id="outlined-basic" label="Student Name" variant="outlined" />
-            <TextField id="outlined-basic" label="Student Address" variant="outlined" />
+                <h1>Add Student</h1>
+            <TextField id="outlined-basic" label="Student Name" variant="outlined" fullWidth/>
+            <TextField id="outlined-basic" label="Student Address" variant="outlined" fullWidth/>
             </Box>
         </Paper>
     </Container>
