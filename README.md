@@ -7,3 +7,7 @@ Stacks used:
 - MySQL
 
 A practice repository for the soon to-be upgraded version of "full-stack" [Donut API](https://github.com/emmanuel-dev000/Donut-API) with CSS, and MongoDB.
+
+Images
+![Frontend](https://github.com/emmanuel-dev000/Student-System/blob/master/docs/react%20front%20end.PNG?raw=true)
+![Database](https://github.com/emmanuel-dev000/Student-System/blob/master/docs/mysql%20database.PNG?raw=true)
